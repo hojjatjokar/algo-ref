@@ -1,7 +1,7 @@
 ---
-title: "Syntax Highlighting"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "This is the meta description for this page"
+title: "Getting Started"
+metaTitle: "Getting Started"
+metaDescription: "What is the basic things I needed to know to get started with algorithms?"
 ---
 
 The following is a code block with JavaScript language syntax highlighting.
