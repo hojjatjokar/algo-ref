@@ -6,10 +6,10 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    logo: 'https://i.ibb.co/8XpbtLx/rsz-11b1353c48d6e41fcaf4b96293bb7605c-1.png',
     logoLink: 'https://algo.hojjat.dev/',
     title:
-    "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "<a href='https://hojjat.dev/learn'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/hojjat/algo',
     helpUrl: '',
     tweetText: '',
@@ -38,21 +38,25 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/getting-started',
+      'big-picture', // add trailing slash if enabled above
+      'getting-started',
+      'searching-algorithms',
+      'sorting-algorithms',
+      'find-chalanges',
+      'resources',
     ],
     collapsedNav: [
-      '/getting-started', // add trailing slash if enabled above
+      '/sorting-algorithms', // add trailing slash if enabled above
+      'searching-algorithms',
     ],
     links: [{ text: 'Blog', link: 'https://hojjat.dev' }],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://algo.hojjat.dev'>Algorithms</a>",
+    title: "<a href='https://algo.hojjat.dev'>Algorithms</a>",
   },
   siteMetadata: {
     title: 'Algorithms | Hojjat Jokar',
-    description: 'Where to lern about algorithms',
+    description: 'Where to learn about algorithms',
     ogImage: null,
     docsLocation: 'https://github.com/hojjat/algo/tree/master/content',
     favicon: 'https://i.postimg.cc/dQ6qGzmf/favicon-32x32.png',
