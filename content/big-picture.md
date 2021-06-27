@@ -25,8 +25,8 @@ Here we explore what is all the topics and sub topics about algorithms
 - Brute Force
 - Divide and Conquer
 - SlidingWindowPattern
-- Recursions
 - MultiplePointerPattern
+- Recursions
 - Backtracking
 
 ## Advanced Algorithms and analysis

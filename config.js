@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://i.ibb.co/8XpbtLx/rsz-11b1353c48d6e41fcaf4b96293bb7605c-1.png',
+    logo: 'https://i.ibb.co/SNYbDsr/Slice-1.png',
     logoLink: 'https://algo.hojjat.dev/',
     title:
       "<a href='https://hojjat.dev/learn'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
@@ -40,14 +40,17 @@ const config = {
     forcedNavOrder: [
       'big-picture', // add trailing slash if enabled above
       'getting-started',
+      'patterns',
+      'paradigms-and-approaches',
       'searching-algorithms',
       'sorting-algorithms',
       'find-chalanges',
       'resources',
     ],
     collapsedNav: [
+      '/getting-started',
       '/sorting-algorithms', // add trailing slash if enabled above
-      'searching-algorithms',
+      '/searching-algorithms',
     ],
     links: [{ text: 'Blog', link: 'https://hojjat.dev' }],
     frontline: false,
