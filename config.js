@@ -49,6 +49,8 @@ const config = {
     ],
     collapsedNav: [
       '/getting-started',
+      '/patterns',
+      '/paradigms-and-approaches',
       '/sorting-algorithms', // add trailing slash if enabled above
       '/searching-algorithms',
     ],

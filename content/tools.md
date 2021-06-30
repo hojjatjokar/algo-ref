@@ -9,3 +9,4 @@ metaDescription: 'useful tools to play with algorithms'
 - [visualgo](https://visualgo.net/en)
 - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
 - [Algo in motion](https://mhmdjaw.github.io/algo-in-motion/algorithms/times-tables)
+- [Performance Tracker](https://rithmschool.github.io/function-timer-demo/): good tool to visualize Big O notation trends
