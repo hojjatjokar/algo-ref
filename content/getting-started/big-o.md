@@ -12,7 +12,7 @@ Objectivs:
 - Define Time complexity and Space Complexity
 - Evaluate time and space complexity of different algorithms using Big O notation
 
-## What problem Big O Notation is solving?
+## What is Big O Notation for?
 
 We need a way to choose which solution is more performant that other.
 
@@ -28,6 +28,14 @@ drawbacks of measuring performance with timing:
 Big O Notation is a system to describe and classify solutions according to how time or space growes as input to solution grows.
 
 Big O Notation invented by Paul Bachmann,[1] Edmund Landau,[2] and others, collectively called Bachmann–Landau notation or asymptotic notation.
+
+Big O notation characterizes functions according to their growth rates: different functions with the same growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the order of the function. A description of a function in terms of big O notation usually only provides an upper bound on the growth rate of the function.
+
+Associated with big O notation are several related notations, using the symbols o, Ω, ω, and Θ, to describe other kinds of bounds on asymptotic growth rates.
+
+- Big O: upper bound
+- Big Theta: lower bound
+- Big Omega: both uppper bound and lower bound
 
 ## Counting operations
 
@@ -111,7 +119,7 @@ function printAllPairs(n) {
 
 O(n^2)
 
-![Big O comparison](https://pasteboard.co/K8SX7fG.png)
+![Big O comparison](https://i.ibb.co/TKsNd2h/bigo.png)
 
 ### Simplifying Big O Expressions
 
