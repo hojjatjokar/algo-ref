@@ -8,7 +8,7 @@
 
 ### Understand The Problem
 
-Steps that can help to understan the problem better:
+Steps that can help to understand the problem better:
 
 1. Can I restate the problem in my own words?
 2. What are the inputs that go into the problem?
@@ -18,12 +18,12 @@ Steps that can help to understan the problem better:
 
 ### Explore Examples
 
-benefits:
+Benefits:
 
 - Coming up with examples can help you understand the problem better
 - Examples also provide sanity checks that your eventual solution works how it should
 
-steps:
+Steps:
 
 - Start with Simple Examples
 - Progress to More Complex Examples
@@ -37,9 +37,9 @@ steps:
 
 ### Solve/Simplify
 
-SOLVE THE PROBLEM If you can't SOLVE A SIMPLER PROBLEM!
+Solve the problem, If you can't, solve a simpler problem!
 
-**SIMPLIFY:**
+**Simplify:**
 
 - Find the core difficulty in what you're trying to do
 - Temporarily ignore that difficulty
