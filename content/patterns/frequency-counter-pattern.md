@@ -11,7 +11,7 @@ Usually, some sort of linear structure like an array or a string and then you're
 
 Write a function called same, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The **frequency** of values must be the **same**.
 
-## First Naive solution - O(n^2)
+### First Naive solution - O(n^2)
 
 ```javascript
 function same(arr1, arr2) {
@@ -32,7 +32,7 @@ function same(arr1, arr2) {
 }
 ```
 
-## Second Naive solution - O(n^2)
+### Second Naive solution - O(n^2)
 
 ```javascript
 function same(a, b) {
@@ -51,7 +51,7 @@ function same(a, b) {
 }
 ```
 
-## Frequency counter solution - O(n)
+### Frequency counter solution - O(n)
 
 ```jsx
 function same(a, b) {
@@ -79,5 +79,44 @@ function same(a, b) {
   }
 
   return true;
+}
+```
+
+## Example 2: Anagram
+
+Given two strings, write a function to determine if the second string is an anagram of the first. An Anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
+
+```jsx
+validAnagram('', ''); // true
+validAnagram('aaz', 'zza'); // false
+validAnagram('anagram', 'nagaram'); // true
+validAnagram('rat', 'car'); // false) // false
+validAnagram('awesome', 'awesom'); // false
+validAnagram('qwerty', 'qeywrt'); // true
+validAnagram('texttwisttime', 'timetwisttext'); // true
+```
+
+### Naive solution - O(n^2)
+
+### Frequency counter solution - O(n)
+
+```javascript
+function validAnagram(a,b){
+	const lookup = {};
+
+	for(let value of a){
+		lookup[value] = lookup[value] ? lookup[value]+1; 1
+	}
+
+	for(let key of b){
+		if(lookup[key]){
+			lookup[key]--;
+
+		} else {
+			return false;
+		}
+	}
+
+	return true;
 }
 ```
