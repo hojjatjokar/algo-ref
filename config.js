@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hojjat.dev',
+    siteUrl: 'https://algo.hojjat.dev',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -9,24 +9,18 @@ const config = {
     logo: 'https://i.ibb.co/SNYbDsr/Slice-1.png',
     logoLink: 'https://algo.hojjat.dev/',
     title:
-      "<a href='https://hojjat.dev/learn'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hojjat/algo',
+      "<a href='https://algo.hojjat.dev'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+    githubUrl: 'https://github.com/hojjatjokar/algo-ref',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/1hojjat" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/HojjatDotDev" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
 		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
+			`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -63,7 +57,7 @@ const config = {
     title: 'Algorithms | Hojjat Jokar',
     description: 'Where to learn about algorithms',
     ogImage: null,
-    docsLocation: 'https://github.com/hojjat/algo/tree/master/content',
+    docsLocation: 'https://github.com/hojjatjokar/algo-ref/content',
     favicon: 'https://i.postimg.cc/dQ6qGzmf/favicon-32x32.png',
   },
   pwa: {
